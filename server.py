@@ -82,5 +82,5 @@ api.add_resource(Position, '/position/<term>/<year>')
 
 
 if __name__ == '__main__':
-	app.run(port=9001, debug=True)
+	app.run(port=9000, debug=True)
 
