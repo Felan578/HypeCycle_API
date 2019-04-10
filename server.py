@@ -6,7 +6,7 @@ from flask_restful import reqparse, abort, Api, Resource
 app = Flask(__name__)
 api = Api(app)
 
-with open('../result/api_data.json', 'r') as f:
+with open('./data/api_data.json', 'r') as f:
 	data = json.load(f)
 
 class StdHypeCycle(Resource):
@@ -73,11 +73,13 @@ class Papers(Resource):
 			res['term'] = term
 			return jsonify( res )
 
-api.add_resource(Position, '/position/<term>/<year>')
+
 api.add_resource(StdHypeCycle, '/std_hype_cycle')
-api.add_resource(HypeCycle, '/hype_cycles/<term>')
 api.add_resource(Patents, '/patents/<term>')
 api.add_resource(Papers, '/papers/<term>')
+api.add_resource(HypeCycle, '/hype_cycles/<term>')
+api.add_resource(Position, '/position/<term>/<year>')
+
 
 if __name__ == '__main__':
 	app.run(debug=True)
