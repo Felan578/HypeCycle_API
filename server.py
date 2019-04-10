@@ -1,4 +1,5 @@
 #!flask/bin/python
+import sys
 import json
 from flask import Flask, jsonify
 from flask_restful import reqparse, abort, Api, Resource
@@ -82,5 +83,5 @@ api.add_resource(Position, '/position/<term>/<year>')
 
 
 if __name__ == '__main__':
-	app.run(port=9000, debug=True)
+	app.run(port=int(sys.argv[1]), debug=True)
 
