@@ -14,7 +14,7 @@ API 提供五种数据，分别是：
 
 #### 标准 Hype Cycle 座标
 
-![std_hype_cycle](/Users/Raina/Documents/Study/year three/Lab/GradDesign/model/API/images/std_hype_cycle.png)
+![std_hype_cycle](./images/std_hype_cycle.png)
 
 用于画出界面中唯一的 Hype Cycle 曲线。
 
@@ -38,7 +38,7 @@ API 提供五种数据，分别是：
 
 #### 专利序列
 
-![patents](/Users/Raina/Documents/Study/year three/Lab/GradDesign/model/API/images/patents.png)
+![patents](./images/patents.png)
 
 请求方法：`/patents/<term>`
 
@@ -50,7 +50,7 @@ API 提供五种数据，分别是：
 
 #### 技术的 Hype Cycle
 
-![hype_cycle](/Users/Raina/Documents/Study/year three/Lab/GradDesign/model/API/images/hype_cycle.png)
+![hype_cycle](./images/hype_cycle.png)
 
 请求方法：`/hype_cycles/<term>`
 
@@ -62,7 +62,7 @@ API 提供五种数据，分别是：
 
 #### (技术,时间) 在标准 Hype Cycle 的座标
 
-![position](/Users/Raina/Documents/Study/year three/Lab/GradDesign/model/API/images/position.png)
+![position](./images/position.png)
 
 用于当用户选择技术和时间后，画出界面中唯一的 Hype Cycle 曲线。
 
