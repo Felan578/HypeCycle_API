@@ -74,12 +74,21 @@ class Papers(Resource):
 			res['term'] = term
 			return jsonify( res )
 
+class Terms(Resource):
+	def __init__(self):
+		self.parser = reqparse.RequestParser()
+		self.terms = data['Terms']
+
+	def get(self):
+		return jsonify(self.terms)
+
 
 api.add_resource(StdHypeCycle, '/std_hype_cycle')
 api.add_resource(Patents, '/patents/<term>')
 api.add_resource(Papers, '/papers/<term>')
 api.add_resource(HypeCycle, '/hype_cycles/<term>')
 api.add_resource(Position, '/position/<term>/<year>')
+api.add_resource(Terms, '/terms')
 
 
 if __name__ == '__main__':
