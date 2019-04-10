@@ -1,4 +1,4 @@
-## Hype Cycle 数据 API
+# Hype Cycle 数据 API
 
 API 提供五种数据，分别是：
 
@@ -12,7 +12,7 @@ API 提供五种数据，分别是：
 
 
 
-#### 标准 Hype Cycle 座标
+### 标准 Hype Cycle 座标
 
 ![std_hype_cycle](./images/std_hype_cycle.png)
 
@@ -26,7 +26,7 @@ API 提供五种数据，分别是：
 
 
 
-#### 论文序列
+### 论文序列
 
 ![papers](./images/papers.png)请求方法：`/papers/<term>`
 
@@ -36,7 +36,7 @@ API 提供五种数据，分别是：
 
 
 
-#### 专利序列
+### 专利序列
 
 ![patents](./images/patents.png)
 
@@ -48,7 +48,7 @@ API 提供五种数据，分别是：
 
 
 
-#### 技术的 Hype Cycle
+### 技术的 Hype Cycle
 
 ![hype_cycle](./images/hype_cycle.png)
 
@@ -60,7 +60,7 @@ API 提供五种数据，分别是：
 
 
 
-#### (技术,时间) 在标准 Hype Cycle 的座标
+### (技术,时间) 在标准 Hype Cycle 的座标
 
 ![position](./images/position.png)
 
