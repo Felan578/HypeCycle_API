@@ -1,5 +1,7 @@
 # Hype Cycle 数据 API
 
+API Url 为 http://166.111.5.228:12346
+
 API 提供五种数据，分别是：
 
 - 标准 Hype Cycle 座标
