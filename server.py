@@ -83,5 +83,5 @@ api.add_resource(Position, '/position/<term>/<year>')
 
 
 if __name__ == '__main__':
-	app.run(port=int(sys.argv[1]), debug=True)
+	app.run(host='0.0.0.0', port=int(sys.argv[1]), debug=True)
 
