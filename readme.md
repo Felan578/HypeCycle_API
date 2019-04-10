@@ -28,7 +28,7 @@ API 提供五种数据，分别是：
 
 #### 论文序列
 
-![papers](/Users/Raina/Documents/Study/year three/Lab/GradDesign/model/API/images/papers.png)请求方法：`/papers/<term>`
+![papers](./images/papers.png)请求方法：`/papers/<term>`
 
 返回结果：一个 Dict，给定技术的论文数量原始数据和拟合曲线的座标。
 
