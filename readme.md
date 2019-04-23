@@ -119,7 +119,7 @@ API 提供六种数据，分别是：
 
 用于当用户选择技术和时间后，画出界面中唯一的 Hype Cycle 曲线。
 
-请求方法：`/hype_cycles/<term>/<year>`
+请求方法：`/position/<term>/<year>`
 
 返回结果：给定技术和时间在标准 Hype Cycle 的座标。pos 和 value 都是和标准 Hype Cycle 里数值一致的。
 
